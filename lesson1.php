@@ -37,4 +37,11 @@ echo $car[0][0].": In stock: ".$car[0][1].", sold: ".$car[0][2]."<br>";
 echo $car[1][0].": In stock: ".$car[1][1].", sold: ".$car[1][2]."<br>";
 echo $car[2][0].": In stock: ".$car[2][1].", sold: ".$car[2][2]."<br>";
 echo $car[3][0].": In stock: ".$car[3][1].", sold: ".$car[3][2]."<br>";
+
+//function
+function writeMsg(){
+    echo "Hello World!<br>";
+}
+writeMsg();
+
 ?>
